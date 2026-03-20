@@ -1,0 +1,25 @@
+root:
+docker-compose.yml
+pryproject.toml
+README.MD
+tgt_db:
+  __init__.py
+  cli.py
+  db.py
+  views.py
+  models.py
+  analysis:
+    __init__.py
+    attack_path_analysis.py
+    clustering_analysis.py
+    credential_analysis.py
+    network_analysis.py
+    path_analysis.py
+    service_analysis.py
+    segmentation_analysis.py
+    temporal_analysis.py
+  parsers:
+    __init__.py
+    nmap_parser.py
+    sysadmin_parser.py
+    
